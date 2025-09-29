@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-09-29T00:00:00.000Z",
-  "updatedAt": "2025-09-29T00:00:00.000Z",
+  "updatedAt": "2025-09-29T15:36:52.787Z",
   "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
   "name": "Simple Email Workflow",
   "active": false,
@@ -13,14 +13,14 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        250,
-        300
+        256,
+        304
       ]
     },
     {
       "parameters": {
-        "fromEmail": "your_email@example.com",
-        "toEmail": "recipient@example.com",
+        "fromEmail": "rising.stones13@gmail.com",
+        "toEmail": "rising.stones13@gmail.com",
         "subject": "Test Email from n8n",
         "text": "This is a test email sent from an n8n workflow.",
         "options": {}
@@ -30,13 +30,13 @@
       "type": "n8n-nodes-base.emailSend",
       "typeVersion": 1,
       "position": [
-        500,
-        300
+        512,
+        304
       ],
       "credentials": {
         "smtp": {
-          "id": "your_smtp_credential_id",
-          "name": "My SMTP Account"
+          "id": "LEf8dK51z3zbOpo9",
+          "name": "SMTP account 2"
         }
       }
     }
@@ -54,11 +54,11 @@
       ]
     }
   },
-  "settings": null,
+  "settings": {},
   "staticData": null,
   "meta": null,
-  "pinData": null,
-  "versionId": "1                                   ",
+  "pinData": {},
+  "versionId": "b94176cc-bec3-4df0-b6e5-983d8ccba565",
   "triggerCount": 0,
   "tags": [],
   "shared": [
