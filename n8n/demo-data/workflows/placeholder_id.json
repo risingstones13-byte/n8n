@@ -1,0 +1,79 @@
+{
+  "createdAt": "2025-09-29T13:01:24.124Z",
+  "updatedAt": "2025-09-29T14:56:08.543Z",
+  "id": "placeholder_id",
+  "name": "Simple Email Workflow",
+  "active": false,
+  "isArchived": true,
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Start",
+      "type": "n8n-nodes-base.start",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ],
+      "id": "0e2e86ff-bfec-4f9a-ad3d-693b46eb8a8a"
+    },
+    {
+      "parameters": {
+        "subject": "Test Email",
+        "text": "This is a test email from n8n.",
+        "to": "test@example.com"
+      },
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [
+        450,
+        300
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "YOUR_CREDENTIAL_ID",
+          "name": "YOUR_CREDENTIAL_NAME"
+        }
+      },
+      "id": "ed72702b-e5c5-4ee9-8ed6-d856946344a7"
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Send Email",
+            "type": "main"
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {},
+  "staticData": null,
+  "meta": null,
+  "pinData": null,
+  "versionId": "411b71ec-6ac4-4b86-abf8-ac008263cecb",
+  "triggerCount": 0,
+  "tags": [],
+  "shared": [
+    {
+      "createdAt": "2025-09-29T13:01:24.124Z",
+      "updatedAt": "2025-09-29T13:01:24.124Z",
+      "role": "workflow:owner",
+      "workflowId": "placeholder_id",
+      "projectId": "ExxlwN7Kq8sF7XLc",
+      "project": {
+        "createdAt": "2025-09-29T12:32:42.384Z",
+        "updatedAt": "2025-09-29T12:43:32.878Z",
+        "id": "ExxlwN7Kq8sF7XLc",
+        "name": "Takao ISHII <rising.stones13@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null
+      }
+    }
+  ]
+}

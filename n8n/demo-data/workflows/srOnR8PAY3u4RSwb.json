@@ -4,6 +4,7 @@
   "id": "srOnR8PAY3u4RSwb",
   "name": "Demo workflow",
   "active": false,
+  "isArchived": false,
   "nodes": [
     {
       "parameters": {},
@@ -83,5 +84,23 @@
   "pinData": {},
   "versionId": "4e2affe6-bb1c-4ddc-92f9-dde0b7656796",
   "triggerCount": 0,
-  "tags": []
+  "tags": [],
+  "shared": [
+    {
+      "createdAt": "2025-09-29T12:32:46.823Z",
+      "updatedAt": "2025-09-29T12:32:46.823Z",
+      "role": "workflow:owner",
+      "workflowId": "srOnR8PAY3u4RSwb",
+      "projectId": "ExxlwN7Kq8sF7XLc",
+      "project": {
+        "createdAt": "2025-09-29T12:32:42.384Z",
+        "updatedAt": "2025-09-29T12:43:32.878Z",
+        "id": "ExxlwN7Kq8sF7XLc",
+        "name": "Takao ISHII <rising.stones13@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null
+      }
+    }
+  ]
 }
